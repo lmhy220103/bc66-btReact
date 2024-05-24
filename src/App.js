@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-
+import BaiTapThucHanhLayout from './BaiTapLayoutComponent/BaiTapThucHanhLayout';
+import Header from './BaiTapLayoutComponent/Header';
+import Body from './BaiTapLayoutComponent/Body';
+import Banner from './BaiTapLayoutComponent/Banner';
+import Item from './BaiTapLayoutComponent/Item';
+import Footer from './BaiTapLayoutComponent/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.min.css'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BaiTapThucHanhLayout/>
+      {/* <Header/>
+      <Body/>
+      <Banner/>
+      <Item/>
+      <Footer/> */}
     </div>
   );
 }
